@@ -104,6 +104,7 @@ img {
   justify-content: space-between;
   align-items: center;
   padding-top: 14px;
+  height: 608px;
 }
 .hero-title {
   color: var(--black-color);
@@ -152,9 +153,15 @@ img {
 }
 /* --------Special--------- */
 .special-section {
+  background-image: url(../images/background-special.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1248px;
+  height: 824px;
 }
 .special-div {
   display: flex;
+  gap: 160px;
   padding-right: 51px;
   padding-bottom: 43px;
 }
@@ -215,4 +222,89 @@ img {
   background: #fff;
   padding: 10px 22px;
   margin-top: 32px;
+}
+/* --------favorites-------- */
+.container {
+}
+.favorites-section {
+}
+.favorites-div {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.favorites-title {
+  color: var(--black-color);
+  text-align: center;
+  font-size: 42px;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 20px;
+}
+.favorites-text {
+  color: var(--black-color);
+  text-align: center;
+  font-size: 16px;
+  line-height: normal;
+  margin-bottom: 40px;
+}
+.favorites-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+}
+
+.favorites-item {
+}
+.favorites-img {
+  padding: 25px 24px;
+  border-radius: 50%;
+  border: 16px solid var(--yellow-main, #ffe550);
+  background: var(--white, #fefefe);
+}
+/*  -------customers---------- */
+
+.customers-section {
+  background-image: url(../images/background-customers.png);
+  width: 1248px;
+  height: 647px;
+}
+.customers-div {
+  padding-top: 100px;
+}
+.customers-title {
+  color: var(--black-color);
+  font-size: 42px;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 20px;
+}
+.customers-text {
+  color: var(--black-color);
+  font-size: 16px;
+  line-height: normal;
+  margin-bottom: 32px;
+}
+.customers-list {
+  display: flex;
+}
+.customers-item {
+}
+.customers-list-title {
+  color: var(--black-color);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: normal;
+}
+.customers-list-subtitle {
+  color: var(--black-color);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 150%;
+}
+.customers-list-text {
+  color: var(--black-color);
+  font-size: 14px;
+  line-height: 150%;
 }
