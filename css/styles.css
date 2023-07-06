@@ -38,7 +38,7 @@ img {
   --dark-green: #7eb101;
   --green: #bbf330;
   --transition-b: background-color 300ms linear;
-  --transition-c: background-color 300ms linear;
+  --transition-c: color 300ms linear;
 }
 /* --------Header--------- */
 .header {
@@ -93,4 +93,126 @@ img {
 .header-nav-link:hover {
   color: var(--green);
   transition: var(--transition-c);
+}
+/* -------Hero-------- */
+.hero-section {
+}
+.container {
+}
+.hero-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 14px;
+}
+.hero-title {
+  color: var(--black-color);
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 120%;
+  width: 502px;
+  margin-bottom: 28px;
+}
+.hero-text {
+  color: var(--black-color);
+  font-size: 16px;
+  line-height: 150%;
+  width: 511px;
+  margin-bottom: 40px;
+  margin-right: 129px;
+}
+.hero-btn {
+  color: var(--black-color);
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 150%;
+  padding: 6px 18px;
+  background-color: var(--green);
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+}
+.hero-btn:hover {
+  background-color: var(--yellow-color);
+  transition: var(--transition-b);
+}
+.hero-slide {
+  width: 680px;
+}
+/* .slick-prev:before {
+  border-radius: 8px;
+  background: var(--white, #fefefe);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.06);
+} */
+.img-hero-first {
+  border-radius: 50%;
+  border: 26px solid var(--yellow-color);
+}
+.hero-title-btn-div {
+}
+/* --------Special--------- */
+.special-section {
+}
+.special-div {
+  display: flex;
+  padding-right: 51px;
+  padding-bottom: 43px;
+}
+.apple-div {
+}
+.special-div-content {
+}
+.special-title {
+  color: var(--black-color);
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 120%;
+  width: 526px;
+  margin-bottom: 20px;
+}
+
+.special-text {
+  color: var(--black-color);
+  font-size: 16px;
+  line-height: 150%;
+  width: 500px;
+}
+.special-list {
+  display: flex;
+  gap: 67px;
+}
+.special-item {
+  width: 253px;
+  margin-top: 40px;
+}
+.special-before {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background-color: #fefefe;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 8px;
+}
+.special-icon {
+}
+.special-list-subtitle {
+  color: var(--black-color);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 140%;
+  margin-bottom: 16px;
+}
+.special-list-text {
+  color: var(--black-color);
+  font-size: 14px;
+  line-height: 150%;
+}
+.special-btn {
+  border-radius: 30px;
+  border: 2px solid var(--dark-green);
+  background: #fff;
+  padding: 10px 22px;
+  margin-top: 32px;
 }
